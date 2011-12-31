@@ -1,0 +1,39 @@
+/*
+ * 
+ * #161616 bleu gris foncé
+ * #202b30 bleu gris clair
+ * #4e7178 bleu gris très clair
+ * #4fa9b8 bleu moyen
+ * #74c0cf bleu clair
+ */
+body, html,*{z-index:1; font: 62.5% Tahoma; background-color: #161616;}
+
+html{padding:0 0 50px 0;}
+
+#preview{ position: absolute; top:0; left:0;background-color:#000000; padding:10px; border-radius:4px;}
+
+#explorer{z-index:1; width: 90%; position: relative; margin:50px auto;}
+.thumbnail{ z-index:2; position:relative; float:left;}
+.thumb{margin:1px; background-color:#cecece; padding:2px; cursor:pointer;}
+.thumb:hover{background-color:#74c0cf;}
+
+.preview{ z-index:3; position: absolute; left:-50%; top: -50%; border:solid 1px #000000; cursor:pointer;}
+.preview_img{ z-index:4;}
+
+.layer_info{ background:url('/images/bg_black_transparent.png'); position: absolute; bottom:0; color:#ffffff; width: 100%;  text-align: center; padding: 4px 0px;}
+.layer_info span{ font-size:10px;}
+
+.photo_link{ padding:10px 2px 4px 2px; text-align: center; background-color: #161616; color:#ffffff; font-size: 14px;}
+.photo_link a{ color:#ffffff; font-size: 13px; text-decoration: none;}
+.photo_link a:hover{ color:#202b30; text-decoration: underline;}
+
+#DOMWindow{}
+#DOMWindow .photo{ float: left;}
+#DOMWindow .infos{ float: left; width: 200px; margin: 0 0px 0 5px; background-color: #707070; min-height: 100px;}
+#modal_content{ width: 845px; overflow: hidden;}
+
+
+
+
+
+
